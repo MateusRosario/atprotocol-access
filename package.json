@@ -1,0 +1,21 @@
+{
+  "name": "bsky_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mateus Rosario <mateusrosario.me@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.5",
+    "dotenv": "^16.4.5"
+  }
+}
